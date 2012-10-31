@@ -23,6 +23,10 @@ module Precious
       def base_url
         @base_url
       end
+
+      def user_info
+        @user_info || 'Not Logged In'
+      end
     end
   end
 end
